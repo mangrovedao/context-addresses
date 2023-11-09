@@ -1,0 +1,42 @@
+{
+  "name": "@mangrovedao/context-addresses",
+  "version": "0.0.1",
+  "description": "Collection of addresses used by Mangrove",
+  "main": "dist/index.js",
+  "repository": "https://github.com/mangrovedao/context-addresses.git",
+  "author": "Mangrove DAO",
+  "license": "MIT",
+  "files": [
+    "dist/",
+    "src/",
+    "LICENSE",
+    "README.md",
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "precommit": "lint-staged",
+    "prepack": "pinst --disable && yarn run build",
+    "postpack": "pinst --enable",
+    "postinstall": "husky install",
+    "lint": "npx eslint ./src/*.ts",
+    "build": "tsc --build"
+  },
+  "lint-staged": {
+    "*.{js,ts,css,md,json,mjs}": "prettier --write"
+  },
+  "dependencies": {
+    "semver": "^7.5.4"
+  },
+  "devDependencies": {
+    "@types/semver": "^7.5.4",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "eslint": "^8.53.0",
+    "eslint-config-prettier": "^9.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.0.2",
+    "pinst": "^3.0.0",
+    "prettier": "^3.0.3"
+  },
+  "packageManager": "yarn@3.5.0"
+}
