@@ -240,13 +240,15 @@
     "symbol": "CRV",
     "description": "Curve DAO Token",
     "decimals": 18,
-    "80001": {
-      "CRV_TEST_AAVE_V3": {
-        "name": "Curve DAO Token",
-        "comment": "AAVE v3 testnet CRV",
-        "contractName": "TestnetERC20",
-        "address": "0x2bbF1f48a678d2f7c291dc5F8fD04805D34F485f",
-        "default": true
+    "networkInstances": {
+      "80001": {
+        "CRV_TEST_AAVE_V3": {
+          "name": "Curve DAO Token",
+          "comment": "AAVE v3 testnet CRV",
+          "contractName": "TestnetERC20",
+          "address": "0x2bbF1f48a678d2f7c291dc5F8fD04805D34F485f",
+          "default": true
+        }
       }
     }
   },
@@ -254,13 +256,15 @@
     "symbol": "PxUSDC",
     "description": "Test USDC deployed by Mangrove DAO",
     "decimals": 6,
-    "137": {
-      "PxUSDC": {
-        "name": "Pixie USDC",
-        "comment": "Test USDC deployed by Mangrove DAO",
-        "contractName": "PixieUSDC",
-        "address": "0xB70041dC246412E0DCE34bd788062E969276E737",
-        "default": true
+    "networkInstances": {
+      "137": {
+        "PxUSDC": {
+          "name": "Pixie USDC",
+          "comment": "Test USDC deployed by Mangrove DAO",
+          "contractName": "PixieUSDC",
+          "address": "0xB70041dC246412E0DCE34bd788062E969276E737",
+          "default": true
+        }
       }
     }
   },
@@ -268,13 +272,15 @@
     "symbol": "PxMATIC",
     "description": "Test MATIC deployed by Mangrove DAO",
     "decimals": 18,
-    "137": {
-      "PxUSDC": {
-        "name": "Pixie MATIC",
-        "comment": "Test MATIC deployed by Mangrove DAO",
-        "contractName": "PixieMATIC",
-        "address": "0xba6fBacEeeE55D2d657Eb26023C64002e23Af5E8",
-        "default": true
+    "networkInstances": {
+      "137": {
+        "PxUSDC": {
+          "name": "Pixie MATIC",
+          "comment": "Test MATIC deployed by Mangrove DAO",
+          "contractName": "PixieMATIC",
+          "address": "0xba6fBacEeeE55D2d657Eb26023C64002e23Af5E8",
+          "default": true
+        }
       }
     }
   }
