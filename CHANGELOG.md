@@ -1,5 +1,7 @@
 # Next version
 
+# 0.0.2-1
+
 - Add function to get all AAVE v3 addresses
 
 # 0.0.2-0
