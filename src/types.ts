@@ -1,13 +1,10 @@
 export type NetworkId = string;
 export type Address = string;
+export type UniqueId = string;
 
-///////////
-// Accounts
-
-export type AccountId = string;
-
-export type Account = {
-  description: Address;
+// A Role is a set of network addresses on different networks that play the same role.
+export type Role = {
+  description: string;
   networkAddresses: Record<NetworkId, Address>;
 };
 
@@ -24,8 +21,8 @@ export type Account = {
 // We therefore assign each token a unique ID and associate instances with that ID.
 // ERC-20 instances are also assigned a unique ID.
 
-export type Erc20Id = string;
-export type Erc20InstanceId = string;
+export type Erc20Id = UniqueId;
+export type Erc20InstanceId = UniqueId;
 
 export type Erc20 = {
   symbol: string;
