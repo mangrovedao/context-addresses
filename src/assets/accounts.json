@@ -1,0 +1,16 @@
+{
+  "Gasbot": {
+    "networkAddresses": {
+      "137": "0x10B124Da45Bc440171664cee59Aafa23979C9616",
+      "42161": "0x10B124Da45Bc440171664cee59Aafa23979C9616",
+      "80001": "0x4d184a4C8d79BbBdCC4E95A1AdEA2454c535280A"
+    }
+  },
+  "MgvGovernance": {
+    "networkAddresses": {
+      "137": "0x59a424169526ECae25856038598F862043DCeDf7",
+      "42161": "0x623059d3c70aC9a3DDe047CB630ff08634DaDedc",
+      "80001": "0x47897EE61498D02B18794601Ed3A71896A1Ff894"
+    }
+  }
+}
