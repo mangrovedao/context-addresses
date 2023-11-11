@@ -5,7 +5,7 @@
     "decimals": 8,
     "networkInstances": {
       "137": {
-        "WBTC_PoS": {
+        "WBTC.e": {
           "name": "(PoS) Wrapped BTC",
           "comment": "Bridged WBTC from Ethereum. Likely bridged by Polygon's FxPortal/Mapper.",
           "contractName": "UChildERC20Proxy",
@@ -14,14 +14,14 @@
         }
       },
       "80001": {
-        "WBTC_TEST_AAVE_V3": {
+        "WBTC/AAVEv3.": {
           "name": "WBTC",
           "comment": "AAVE v3 testnet WBTC",
           "contractName": "TestnetERC20",
           "address": "0x2Fa2e7a6dEB7bb51B625336DBe1dA23511914a8A",
           "default": true
         },
-        "WBTC_TEST_MANGROVE": {
+        "WBTC/MGV.": {
           "name": "Mangrove Tesnet WBTC token",
           "comment": "Test WBTC deployed by Mangrove DAO",
           "contractName": "TestToken",
@@ -36,7 +36,7 @@
     "decimals": 18,
     "networkInstances": {
       "1": {
-        "WETH": {
+        "WETH.": {
           "name": "Wrapped Ether",
           "comment": "",
           "contractName": "WETH9",
@@ -45,7 +45,7 @@
         }
       },
       "5": {
-        "WETH_TEST": {
+        "WETH.": {
           "name": "Wrapped Ether",
           "comment": "Unverified test WETH on Goerli.",
           "contractName": "",
@@ -54,7 +54,7 @@
         }
       },
       "137": {
-        "WETH": {
+        "WETH.e": {
           "name": "Wrapped Ether",
           "comment": "Native ETH bridged from Ethereum. Likely bridged by Polygon's FxPortal/Mapper.",
           "contractName": "MaticWETH",
@@ -63,7 +63,7 @@
         }
       },
       "42161": {
-        "WETH_ARBITRUM_ETHEREUM_BRIDGE": {
+        "WETH.e": {
           "name": "Wrapped Ether",
           "comment": "WETH bridged from Ethereum using Arbitrum's canonical bridge.",
           "contractName": "TransparentUpgradeableProxy",
@@ -72,7 +72,7 @@
         }
       },
       "80001": {
-        "WETH_TEST_MANGROVE": {
+        "WETH/MGV.": {
           "name": "Mangrove Testnet WETH token",
           "comment": "Test WETH deployed by Mangrove DAO",
           "contractName": "TestToken",
@@ -88,7 +88,7 @@
     "decimals": 18,
     "networkInstances": {
       "80001": {
-        "WMATIC_TEST_MANGROVE": {
+        "WMATIC/MGV.": {
           "name": "Mangrove Tesnet WMATIC token",
           "comment": "Test WMATIC deployed by Mangrove DAO",
           "contractName": "TestToken",
@@ -104,7 +104,7 @@
     "decimals": 18,
     "networkInstances": {
       "5": {
-        "DAI_TEST": {
+        "DAI.": {
           "name": "Dai Stablecoin",
           "comment": "Test DAI on Goerli.",
           "contractName": "TestnetERC20",
@@ -113,7 +113,7 @@
         }
       },
       "137": {
-        "DAI_PoS": {
+        "DAI.e": {
           "name": "(PoS) Dai Stablecoin",
           "comment": "Bridged DAI from Ethereum. Likely bridged by Polygon's FxPortal/Mapper.",
           "contractName": "UChildERC20Proxy",
@@ -122,7 +122,7 @@
         }
       },
       "42161": {
-        "DAI_ARBITRUM_ETHEREUM_BRIDGE": {
+        "DAI.e": {
           "name": "Dai Stablecoin",
           "comment": "DAI bridged from Ethereum using Arbitrum's canonical bridge.",
           "contractName": "Dai",
@@ -131,14 +131,14 @@
         }
       },
       "80001": {
-        "DAI_TEST_AAVE_V3": {
+        "DAI/AAVEv3.": {
           "name": "Dai Stablecoin",
           "comment": "AAVE v3 testnet DAI",
           "contractName": "TestnetERC20",
           "address": "0xc8c0Cf9436F4862a8F60Ce680Ca5a9f0f99b5ded",
           "default": true
         },
-        "DAI_TEST_MANGROVE": {
+        "DAI/MGV.": {
           "name": "Mangrove Testnet DAI token",
           "comment": "Test DAI deployed by Mangrove DAO",
           "contractName": "TestToken",
@@ -153,13 +153,13 @@
     "decimals": 6,
     "networkInstances": {
       "137": {
-        "USDC": {
+        "USDC.": {
           "name": "USD Coin",
           "comment": "Native USDC by Circle.",
           "contractName": "FiatTokenProxy",
           "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
         },
-        "USDC_PoS": {
+        "USDC.e": {
           "name": "USD Coin (PoS)",
           "comment": "Bridged USDC from Ethereum. Not issued by Circle. Likely bridged by Polygon's FxPortal/Mapper.",
           "contractName": "UChildERC20Proxy",
@@ -168,7 +168,7 @@
         }
       },
       "5": {
-        "USDC_TEST": {
+        "USDC.": {
           "name": "USD Coin",
           "comment": "Unverified test USDC on Goerli.",
           "contractName": "",
@@ -177,14 +177,14 @@
         }
       },
       "42161": {
-        "USDC": {
+        "USDC.": {
           "name": "USD Coin",
           "comment": "Native USDC by Circle.",
           "contractName": "FiatTokenProxy",
           "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
           "default": true
         },
-        "USDC_ARBITRUM_ETHEREUM_BRIDGE": {
+        "USDC.e": {
           "name": "USD Coin",
           "contractName": "TransparentUpgradeableProxy",
           "comment": "USDC bridged from Ethereum using Arbitrum's canonical bridge.",
@@ -192,7 +192,7 @@
         }
       },
       "80001": {
-        "USDC_TEST_MANGROVE": {
+        "USDC/MGV.": {
           "name": "Mangrove Testnet USDC token",
           "comment": "Test USDC deployed by Mangrove DAO",
           "contractName": "TestToken",
@@ -208,7 +208,7 @@
     "decimals": 6,
     "networkInstances": {
       "137": {
-        "USDT_PoS": {
+        "USDT.e": {
           "name": "(PoS) Tether USD",
           "comment": "Bridged USDT from Ethereum. Not issued by Tether. Likely bridged by Polygon's FxPortal/Mapper.",
           "contractName": "UChildERC20Proxy",
@@ -217,7 +217,7 @@
         }
       },
       "42161": {
-        "USDT_ARBITRUM_ETHEREUM_BRIDGE": {
+        "USDT.e": {
           "name": "Tether USD",
           "comment": "USDT bridged from Ethereum using Arbitrum's canonical bridge.",
           "contractName": "TransparentUpgradeableProxy",
@@ -226,7 +226,7 @@
         }
       },
       "80001": {
-        "USDT_TEST_MANGROVE": {
+        "USDT/MGV.": {
           "name": "Mangrove Tesnet USDT token",
           "comment": "Test USDT deployed by Mangrove DAO",
           "contractName": "TestToken",
@@ -242,7 +242,7 @@
     "decimals": 18,
     "networkInstances": {
       "80001": {
-        "CRV_TEST_AAVE_V3": {
+        "CRV/AAVEv3.": {
           "name": "Curve DAO Token",
           "comment": "AAVE v3 testnet CRV",
           "contractName": "TestnetERC20",
@@ -258,7 +258,7 @@
     "decimals": 6,
     "networkInstances": {
       "137": {
-        "PxUSDC": {
+        "PxUSDC.": {
           "name": "Pixie USDC",
           "comment": "Test USDC deployed by Mangrove DAO",
           "contractName": "PixieUSDC",
@@ -274,7 +274,7 @@
     "decimals": 18,
     "networkInstances": {
       "137": {
-        "PxUSDC": {
+        "PxUSDC.": {
           "name": "Pixie MATIC",
           "comment": "Test MATIC deployed by Mangrove DAO",
           "contractName": "PixieMATIC",
