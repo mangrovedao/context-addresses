@@ -19,7 +19,14 @@
     "postpack": "pinst --enable",
     "postinstall": "husky install",
     "lint": "npx eslint ./src/*.ts",
-    "build": "tsc --build"
+    "build": "tsc --build",
+    "test": "mocha --parallel --config test/mocha/config/unit-tests.json --exit",
+    "test:coverage": "nyc --reporter=lcov mocha --config test/mocha/config/coverage-tests.json --exit"
+  },
+  "nyc": {
+    "include": [
+      "src/**/*.ts"
+    ]
   },
   "lint-staged": {
     "*.{js,ts,css,md,json,mjs}": "prettier --write"
@@ -28,15 +35,25 @@
     "semver": "^7.5.4"
   },
   "devDependencies": {
+    "@espendk/json-file-reporter": "^1.4.2",
+    "@types/chai": "^4.3.10",
+    "@types/mocha": "^10.0.4",
+    "@types/node": "^20.9.0",
     "@types/semver": "^7.5.4",
     "@typescript-eslint/eslint-plugin": "^6.10.0",
     "@typescript-eslint/parser": "^6.10.0",
+    "chai": "^4.3.10",
     "eslint": "^8.53.0",
     "eslint-config-prettier": "^9.0.0",
     "husky": "^8.0.3",
     "lint-staged": "^15.0.2",
+    "mocha": "^10.2.0",
+    "mocha-multi-reporters": "^1.5.1",
+    "nyc": "^15.1.0",
     "pinst": "^3.0.0",
-    "prettier": "^3.0.3"
+    "prettier": "^3.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
   },
   "packageManager": "yarn@3.5.0"
 }

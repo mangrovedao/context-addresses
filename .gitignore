@@ -4,6 +4,9 @@ bin/
 build/
 dist/
 node_modules/
+*tests-report.json
+.nyc_output/
+coverage/
 
 # Personal
 .env
