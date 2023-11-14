@@ -274,7 +274,7 @@
     "decimals": 18,
     "networkInstances": {
       "137": {
-        "PxUSDC.": {
+        "PxMATIC.": {
           "name": "Pixie MATIC",
           "comment": "Test MATIC deployed by Mangrove DAO",
           "contractName": "PixieMATIC",
