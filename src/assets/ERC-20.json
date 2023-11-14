@@ -14,14 +14,14 @@
         }
       },
       "80001": {
-        "WBTC/AAVEv3.": {
+        "WBTC.T/AAVEv3": {
           "name": "WBTC",
           "comment": "AAVE v3 testnet WBTC",
           "contractName": "TestnetERC20",
           "address": "0x2Fa2e7a6dEB7bb51B625336DBe1dA23511914a8A",
           "default": true
         },
-        "WBTC/MGV.": {
+        "WBTC.T/MGV": {
           "name": "Mangrove Tesnet WBTC token",
           "comment": "Test WBTC deployed by Mangrove DAO",
           "contractName": "TestToken",
@@ -72,7 +72,7 @@
         }
       },
       "80001": {
-        "WETH/MGV.": {
+        "WETH.T/MGV": {
           "name": "Mangrove Testnet WETH token",
           "comment": "Test WETH deployed by Mangrove DAO",
           "contractName": "TestToken",
@@ -88,7 +88,7 @@
     "decimals": 18,
     "networkInstances": {
       "80001": {
-        "WMATIC/MGV.": {
+        "WMATIC.T/MGV": {
           "name": "Mangrove Tesnet WMATIC token",
           "comment": "Test WMATIC deployed by Mangrove DAO",
           "contractName": "TestToken",
@@ -131,14 +131,14 @@
         }
       },
       "80001": {
-        "DAI/AAVEv3.": {
+        "DAI.T/AAVEv3": {
           "name": "Dai Stablecoin",
           "comment": "AAVE v3 testnet DAI",
           "contractName": "TestnetERC20",
           "address": "0xc8c0Cf9436F4862a8F60Ce680Ca5a9f0f99b5ded",
           "default": true
         },
-        "DAI/MGV.": {
+        "DAI.T/MGV": {
           "name": "Mangrove Testnet DAI token",
           "comment": "Test DAI deployed by Mangrove DAO",
           "contractName": "TestToken",
@@ -192,7 +192,7 @@
         }
       },
       "80001": {
-        "USDC/MGV.": {
+        "USDC.T/MGV": {
           "name": "Mangrove Testnet USDC token",
           "comment": "Test USDC deployed by Mangrove DAO",
           "contractName": "TestToken",
@@ -226,7 +226,7 @@
         }
       },
       "80001": {
-        "USDT/MGV.": {
+        "USDT.T/MGV": {
           "name": "Mangrove Tesnet USDT token",
           "comment": "Test USDT deployed by Mangrove DAO",
           "contractName": "TestToken",
@@ -242,7 +242,7 @@
     "decimals": 18,
     "networkInstances": {
       "80001": {
-        "CRV/AAVEv3.": {
+        "CRV.T/AAVEv3": {
           "name": "Curve DAO Token",
           "comment": "AAVE v3 testnet CRV",
           "contractName": "TestnetERC20",
