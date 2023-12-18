@@ -1,0 +1,9 @@
+{
+  "AaveAddressProvider": {
+    "description": "AAVE v3 address provider",
+    "networkAddresses": {
+      "137": "0xa97684ead0e402dC232d5A977953DF7ECBaB3CDb",
+      "80001": "0x4CeDCB57Af02293231BAA9D39354D6BFDFD251e0"
+    }
+  }
+}
