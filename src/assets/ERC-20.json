@@ -79,6 +79,15 @@
           "address": "0x406bF0fcE108dD8864627EC6816AaFF8336f8231",
           "default": true
         }
+      },
+      "11155111": {
+        "WETH.T/unknown1": {
+          "name": "Wrapped Ether",
+          "comment": "Test WETH deployed by unknown",
+          "contractName": "WETH",
+          "address": "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9",
+          "default": true
+        }
       }
     }
   },
@@ -197,6 +206,15 @@
           "comment": "Test USDC deployed by Mangrove DAO",
           "contractName": "TestToken",
           "address": "0xe9259C5B6936Ee6439654171AFd674b31a533985",
+          "default": true
+        }
+      },
+      "11155111": {
+        "USDC.T/unknown1": {
+          "name": "USD Coin",
+          "comment": "Test USDC deployed by unknown",
+          "contractName": "unknown",
+          "address": "0xf08A50178dfcDe18524640EA6618a1f965821715",
           "default": true
         }
       }
