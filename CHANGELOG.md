@@ -1,5 +1,10 @@
 # Next version
 
+# 1.1.1
+
+- Fix issue in mapping of default tokens in `toErc20InstancesPerNamedNetwork`: Only the original instance ID should be marked as default, not the copy that has the symbol as ID.
+- Fix return type for `toErc20InstancesPerNamedNetwork`: Missing `decimals` field added.
+
 # 1.1.0
 
 - Add utils for transforming query results to structures that can be easily serialized the JSON format used by the Mangrove smart contract repos.

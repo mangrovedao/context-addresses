@@ -4,7 +4,7 @@
  * Utilities used by the Mangrove smart contract repos.
  */
 
-import { Erc20, Erc20Id, Role, UniqueId } from "./types";
+import { Erc20, Erc20Id, Erc20Instance, Role, UniqueId } from "./types";
 
 /** Network names used in Mangrove smart contract repos.
  *
@@ -100,7 +100,7 @@ export function toNamedAddressesPerNamedNetwork(
  * {
  *   "mainnet": [
  *     { "symbol": "USDT", "decimals": 18, "id": "USDT.", "address": "0x...", "default": true },
- *     { "symbol": "USDT", "decimals": 18, "id": "USDT", "address": "0x...", "default": true },
+ *     { "symbol": "USDT", "decimals": 18, "id": "USDT", "address": "0x...", "default": false },
  *     ...
  *   ],
  *   "maticmum": ...
@@ -111,20 +111,8 @@ export function toNamedAddressesPerNamedNetwork(
  */
 export function toErc20InstancesPerNamedNetwork(
   erc20s: Record<Erc20Id, Erc20>,
-): Record<
-  string,
-  { symbol: string; id: string; address: string; default: boolean }[]
-> {
-  const instancesPerNamedNetwork: Record<
-    string,
-    {
-      symbol: string;
-      decimals: number;
-      id: string;
-      address: string;
-      default: boolean;
-    }[]
-  > = {};
+): Record<string, Erc20Instance[]> {
+  const instancesPerNamedNetwork: Record<string, Erc20Instance[]> = {};
 
   for (const [, erc20] of Object.entries(erc20s)) {
     for (const [networkId, networkInstances] of Object.entries(
@@ -154,7 +142,7 @@ export function toErc20InstancesPerNamedNetwork(
             decimals: erc20.decimals,
             id: erc20.symbol,
             address: erc20Instance.address,
-            default: true,
+            default: false,
           });
         }
       }
