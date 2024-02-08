@@ -1,5 +1,7 @@
 # Next version
 
+- Add utils for transforming query results to structures that can be easily serialized the JSON format used by the Mangrove smart contract repos.
+
 # 1.0.1
 
 - Add Sepolia addresses for AAVE v3, multicall2, Mangrove accounts, and a few tokens: WETH and USDC.
