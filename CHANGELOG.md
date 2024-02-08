@@ -1,5 +1,7 @@
 # Next version
 
+# 1.1.0
+
 - Add utils for transforming query results to structures that can be easily serialized the JSON format used by the Mangrove smart contract repos.
 
 # 1.0.1
