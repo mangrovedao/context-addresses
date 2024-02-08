@@ -1,5 +1,7 @@
 # Next version
 
+# 1.1.2
+
 - Add account addresses for Blast Sepolia
 
 # 1.1.1
