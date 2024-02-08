@@ -41,3 +41,11 @@ export type Erc20NetworkInstance = {
   address: Address;
   default?: boolean;
 };
+
+export type Erc20Instance = {
+  symbol: string;
+  decimals: number;
+  id: string;
+  address: string;
+  default: boolean;
+};
