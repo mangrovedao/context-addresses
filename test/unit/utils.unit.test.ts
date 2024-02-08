@@ -198,7 +198,7 @@ describe("utils.ts", () => {
             decimals: 18,
             id: "SYM",
             address: "0x123",
-            default: true,
+            default: false,
           },
         ],
       });
@@ -251,7 +251,7 @@ describe("utils.ts", () => {
             decimals: 18,
             id: "SYM",
             address: "0x456",
-            default: true,
+            default: false,
           },
         ],
       });

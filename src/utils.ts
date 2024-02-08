@@ -100,7 +100,7 @@ export function toNamedAddressesPerNamedNetwork(
  * {
  *   "mainnet": [
  *     { "symbol": "USDT", "decimals": 18, "id": "USDT.", "address": "0x...", "default": true },
- *     { "symbol": "USDT", "decimals": 18, "id": "USDT", "address": "0x...", "default": true },
+ *     { "symbol": "USDT", "decimals": 18, "id": "USDT", "address": "0x...", "default": false },
  *     ...
  *   ],
  *   "maticmum": ...
@@ -142,7 +142,7 @@ export function toErc20InstancesPerNamedNetwork(
             decimals: erc20.decimals,
             id: erc20.symbol,
             address: erc20Instance.address,
-            default: true,
+            default: false,
           });
         }
       }
