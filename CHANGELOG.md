@@ -1,5 +1,9 @@
 # Next version
 
+# 1.1.3
+
+- Add Blast Sepolia ERC20 tokens: WBTC, WETH, and USDB
+
 # 1.1.2
 
 - Add account addresses for Blast Sepolia
