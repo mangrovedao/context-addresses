@@ -27,6 +27,15 @@
           "contractName": "TestToken",
           "address": "0xf402f6197d979F0A4cba61596921a3d762520570"
         }
+      },
+      "168587773": {
+        "WBTC.T/MGV": {
+          "name": "Mangrove Testnet WBTC token",
+          "comment": "Test WBTC deployed by Mangrove DAO",
+          "contractName": "TestToken",
+          "address": "0xE44FfC50ED6673d6A1C385B76152E1551a6c14a3",
+          "default": true
+        }
       }
     }
   },
@@ -86,6 +95,15 @@
           "comment": "Test WETH deployed by unknown",
           "contractName": "WETH",
           "address": "0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9",
+          "default": true
+        }
+      },
+      "168587773": {
+        "WETH.e": {
+          "name": "Wrapped Ether",
+          "comment": "Rebasing ERC20 token that serves as WETH on Blast L2.",
+          "contractName": "WETHRebasing",
+          "address": "0x4200000000000000000000000000000000000023",
           "default": true
         }
       }
@@ -249,6 +267,22 @@
           "comment": "Test USDT deployed by Mangrove DAO",
           "contractName": "TestToken",
           "address": "0xe8099699aa4A79d89dBD20A63C50b7d35ED3CD9e",
+          "default": true
+        }
+      }
+    }
+  },
+  "USDB": {
+    "symbol": "USDB",
+    "description": "Blast's rebasing USD token",
+    "decimals": 18,
+    "networkInstances": {
+      "168587773": {
+        "USDB.e": {
+          "name": "Rebasing USD",
+          "comment": "Rebasing ERC20 token with the share price determined by an L1.",
+          "contractName": "USDB",
+          "address": "0x4200000000000000000000000000000000000022",
           "default": true
         }
       }
