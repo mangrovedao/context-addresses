@@ -1,5 +1,7 @@
 # Next version
 
+# 1.1.4
+
 - Add Blast Sepolia Multicall2 address
 
 # 1.1.3
