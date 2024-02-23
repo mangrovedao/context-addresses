@@ -1,6 +1,7 @@
 # Next version
 
 - Add Blast network name (chain ID 238)
+- Add `chainIdToNetworkName` function to convert a chain IDs to the network names used in Mangrove smart contract repos.
 
 # 1.1.4
 

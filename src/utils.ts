@@ -43,6 +43,16 @@ export const mangroveNetworkNames = {
 } as Record<string, string>;
 
 /**
+ * Convert a chain ID to a network name.
+ * @param chainId Chain ID.
+ * @returns Network name or `undefined` if the chain ID is not known.
+ * @see mangroveNetworkNames
+ */
+export function chainIdToNetworkName(chainId: number): string | undefined {
+  return mangroveNetworkNames["" + chainId];
+}
+
+/**
  * Transform role groups as returned by most of the query methods to a structure that can
  * be easily serialized the JSON format used by the Mangrove smart contract repos when
  * reading addresses:

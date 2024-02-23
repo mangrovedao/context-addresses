@@ -4,9 +4,20 @@ import { expect } from "chai";
 import {
   toNamedAddressesPerNamedNetwork,
   toErc20InstancesPerNamedNetwork,
+  chainIdToNetworkName,
 } from "../../src/utils";
 
 describe("utils.ts", () => {
+  describe("chainIdToNetworkName", () => {
+    it("should return undefined for unknown chain ID", () => {
+      expect(chainIdToNetworkName(123)).to.be.undefined;
+    });
+
+    it("should return network name for known chain ID", () => {
+      expect(chainIdToNetworkName(1)).to.equal("mainnet");
+    });
+  });
+
   describe("toNamedAddressesPerNamedNetwork", () => {
     it("should return empty object for empty input", () => {
       expect(toNamedAddressesPerNamedNetwork()).to.deep.equal({});
