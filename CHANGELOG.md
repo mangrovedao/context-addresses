@@ -1,5 +1,7 @@
 # Next version
 
+- Add Blast network name (chain ID 238)
+
 # 1.1.4
 
 - Add Blast Sepolia Multicall2 address

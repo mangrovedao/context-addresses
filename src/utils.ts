@@ -30,6 +30,7 @@ export const mangroveNetworkNames = {
   "97": "bnbt",
   "100": "xdai",
   "137": "matic",
+  "238": "blast",
   "420": "optimism-goerli",
   "42161": "arbitrum",
   "80001": "maticmum",
