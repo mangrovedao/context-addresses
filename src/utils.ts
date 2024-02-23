@@ -30,6 +30,7 @@ export const mangroveNetworkNames = {
   "97": "bnbt",
   "100": "xdai",
   "137": "matic",
+  "238": "blast",
   "420": "optimism-goerli",
   "42161": "arbitrum",
   "80001": "maticmum",
@@ -40,6 +41,16 @@ export const mangroveNetworkNames = {
   "11155111": "sepolia",
   "168587773": "blast-sepolia",
 } as Record<string, string>;
+
+/**
+ * Convert a chain ID to a network name.
+ * @param chainId Chain ID.
+ * @returns Network name or `undefined` if the chain ID is not known.
+ * @see mangroveNetworkNames
+ */
+export function chainIdToNetworkName(chainId: number): string | undefined {
+  return mangroveNetworkNames["" + chainId];
+}
 
 /**
  * Transform role groups as returned by most of the query methods to a structure that can
