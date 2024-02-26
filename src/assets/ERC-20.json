@@ -71,6 +71,15 @@
           "default": true
         }
       },
+      "238": {
+        "WETH.e": {
+          "name": "Wrapped Ether",
+          "comment": "Rebasing ERC20 token that serves as WETH on Blast L2.",
+          "contractName": "WETHRebasing",
+          "address": "0x4300000000000000000000000000000000000004",
+          "default": true
+        }
+      },
       "42161": {
         "WETH.e": {
           "name": "Wrapped Ether",
@@ -277,6 +286,15 @@
     "description": "Blast's rebasing USD token",
     "decimals": 18,
     "networkInstances": {
+      "238": {
+        "USDB.e": {
+          "name": "Rebasing USD",
+          "comment": "Rebasing ERC20 token with the share price determined by an L1.",
+          "contractName": "USDB",
+          "address": "0x4300000000000000000000000000000000000003",
+          "default": true
+        }
+      },
       "168587773": {
         "USDB.e": {
           "name": "Rebasing USD",
