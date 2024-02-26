@@ -1,5 +1,7 @@
 # Next version
 
+- Add Blast mainnet ERC20 tokens: WETH, and USDB
+
 # 1.2.0
 
 - Add Blast network name (chain ID 238)
