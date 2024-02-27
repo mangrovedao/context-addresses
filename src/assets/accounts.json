@@ -18,5 +18,17 @@
       "11155111": "0x47897EE61498D02B18794601Ed3A71896A1Ff894",
       "168587773": "0x47897EE61498D02B18794601Ed3A71896A1Ff894"
     }
+  },
+  "BlastGovernor": {
+    "description": "The account that manages Blast yield and gas fees earned by Mangrove contracts.",
+    "networkAddresses": {
+      "168587773": "0x47897EE61498D02B18794601Ed3A71896A1Ff894"
+    }
+  },
+  "BlastPointsOperator": {
+    "description": "The account that manages Blast Points earned by Mangrove contracts.",
+    "networkAddresses": {
+      "168587773": "0x47897EE61498D02B18794601Ed3A71896A1Ff894"
+    }
   }
 }
