@@ -1,5 +1,7 @@
 # Next version
 
+- Add `BlastGovernor` and `BlastPointsOperator` accounts for Blast Sepolia.
+
 # 1.2.2-0
 
 - Add support for Blast contracts, including their known addresses on Blast/Ethereum and Blast Sepolia/Sepolia at this time.
