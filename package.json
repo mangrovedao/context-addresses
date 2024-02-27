@@ -1,6 +1,6 @@
 {
   "name": "@mangrovedao/context-addresses",
-  "version": "1.2.1",
+  "version": "1.2.2-0",
   "description": "Collection of addresses used by Mangrove",
   "main": "dist/index.js",
   "repository": "https://github.com/mangrovedao/context-addresses.git",
