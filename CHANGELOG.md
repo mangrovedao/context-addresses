@@ -1,5 +1,7 @@
 # Next version
 
+# 1.2.2-1
+
 - Add `BlastGovernor` and `BlastPointsOperator` accounts for Blast Sepolia.
 
 # 1.2.2-0
