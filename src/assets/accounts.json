@@ -5,6 +5,7 @@
       "137": "0x10B124Da45Bc440171664cee59Aafa23979C9616",
       "42161": "0x10B124Da45Bc440171664cee59Aafa23979C9616",
       "80001": "0x4d184a4C8d79BbBdCC4E95A1AdEA2454c535280A",
+      "81457": "0x10B124Da45Bc440171664cee59Aafa23979C9616",
       "11155111": "0x4d184a4C8d79BbBdCC4E95A1AdEA2454c535280A",
       "168587773": "0x4d184a4C8d79BbBdCC4E95A1AdEA2454c535280A"
     }
@@ -15,6 +16,7 @@
       "137": "0x59a424169526ECae25856038598F862043DCeDf7",
       "42161": "0x623059d3c70aC9a3DDe047CB630ff08634DaDedc",
       "80001": "0x47897EE61498D02B18794601Ed3A71896A1Ff894",
+      "81457": "0xd70b96bcc12d45f347b9b70899dcbb3dfe13384f",
       "11155111": "0x47897EE61498D02B18794601Ed3A71896A1Ff894",
       "168587773": "0x47897EE61498D02B18794601Ed3A71896A1Ff894"
     }
@@ -22,12 +24,14 @@
   "BlastGovernor": {
     "description": "The account that manages Blast yield and gas fees earned by Mangrove contracts.",
     "networkAddresses": {
+      "81457": "0xd70b96bcc12d45f347b9b70899dcbb3dfe13384f",
       "168587773": "0x47897EE61498D02B18794601Ed3A71896A1Ff894"
     }
   },
   "BlastPointsOperator": {
     "description": "The account that manages Blast Points earned by Mangrove contracts.",
     "networkAddresses": {
+      "81457": "0x441f6a3d415708f89e4adbb6b995371554aa909e",
       "168587773": "0x47897EE61498D02B18794601Ed3A71896A1Ff894"
     }
   }
