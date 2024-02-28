@@ -1,5 +1,7 @@
 # Next version
 
+- Add support for Blast contracts, including their known addresses on Blast/Ethereum and Blast Sepolia/Sepolia at this time.
+
 # 1.2.1
 
 - Add Blast mainnet ERC20 tokens: WETH, and USDB

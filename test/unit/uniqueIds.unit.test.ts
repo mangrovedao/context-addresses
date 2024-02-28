@@ -2,6 +2,7 @@ import assert from "assert";
 import { describe, it } from "mocha";
 
 import { getAllAaveV3Addresses } from "../../src/aave";
+import { getAllBlastAddresses } from "../../src/blast";
 import { getAllAccounts } from "../../src/accounts";
 import { getAllErc20s } from "../../src/erc20";
 import { getAllMulticallAddresses } from "../../src/multicall";
@@ -9,6 +10,7 @@ import { getAllMulticallAddresses } from "../../src/multicall";
 describe("Unique IDs", () => {
   it("Unique IDs should be unique per network across address types", () => {
     const aaveV3Addresses = getAllAaveV3Addresses();
+    const blastAddresses = getAllBlastAddresses();
     const accountAddresses = getAllAccounts();
     const erc20Addresses = getAllErc20s();
     const multicallAddresses = getAllMulticallAddresses();
@@ -21,6 +23,7 @@ describe("Unique IDs", () => {
 
     for (const [source, addresses] of [
       ["AAVE-v3.json", aaveV3Addresses],
+      ["Blast.json", blastAddresses],
       ["accounts.json", accountAddresses],
       ["multicall.json", multicallAddresses],
     ] as const) {

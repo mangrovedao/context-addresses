@@ -8,6 +8,7 @@ This repo contains a collection of addresses on various networks used by Mangrov
 - ERC-20 tokens
 - Multicall contracts
 - AAVE v3 address provider contract
+- Blast contracts on both L1 and L2
 - Accounts used by Mangrove governance and operations.
 
 For addresses of Mangrove contracts, see the [mangrove-deployments](https://github.com/mangrovedao/mangrove-deployments/) repo.
@@ -28,6 +29,7 @@ An alternative is to use the JavaScript library methods to query the addresses. 
 ```ts
 const multicallAddresses = getAllMulticallAddresses();
 const aaveV3Addresses = getAllAaveV3Addresses();
+const blastAddresses = getAllBlastAddresses();
 const accounts = getAllAccounts();
 ```
 
