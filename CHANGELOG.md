@@ -1,5 +1,7 @@
 # Next version
 
+# 1.3.1
+
 - fix: Use correct chain ID for Blast: 81457
 
 # 1.3.0
