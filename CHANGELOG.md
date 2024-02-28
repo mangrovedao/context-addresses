@@ -1,5 +1,8 @@
 # Next version
 
+- Add Blast mainnet contract addresses
+- Add `Blast*` prefix to all Blast contract addresses
+
 # 1.2.2-1
 
 - Add `BlastGovernor` and `BlastPointsOperator` accounts for Blast Sepolia.

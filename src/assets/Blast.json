@@ -1,56 +1,68 @@
 {
-  "L1BlastBridgeProxy": {
+  "BlastL1BlastBridgeProxy": {
     "description": "Blast L1 contract: L1BlastBridgeProxy",
     "networkAddresses": {
       "11155111": "0xc644cc19d2A9388b71dd1dEde07cFFC73237Dca8"
     }
   },
-  "L1StandardBridgeProxy": {
+  "BlastL1StandardBridgeProxy": {
     "description": "Blast L1 contract: L1StandardBridgeProxy",
     "networkAddresses": {
+      "1": "0x697402166Fbf2F22E970df8a6486Ef171dbfc524",
       "11155111": "0xDeDa8D3CCf044fE2A16217846B6e1f1cfD8e122f"
     }
   },
-  "L1ERC721BridgeProxy": {
+  "BlastL1ERC721BridgeProxy": {
     "description": "Blast L1 contract: L1ERC721BridgeProxy",
     "networkAddresses": {
       "11155111": "0x993385F8A2aD69dfa0884287801191DE9805Ff37"
     }
   },
-  "L1CrossDomainMessengerProxy": {
+  "BlastL1CrossDomainMessengerProxy": {
     "description": "Blast L1 contract: L1CrossDomainMessengerProxy",
     "networkAddresses": {
+      "1": "0x5D4472f31Bd9385709ec61305AFc749F0fA8e9d0",
       "11155111": "0x9338F298F29D3918D5D1Feb209aeB9915CC96333"
     }
   },
-  "OptimismPortalProxy": {
+  "BlastOptimismPortalProxy": {
     "description": "Blast L1 contract: OptimismPortalProxy",
     "networkAddresses": {
+      "1": "0x0Ec68c5B10F21EFFb74f2A5C61DFe6b08C0Db6Cb",
       "11155111": "0x2757E4430e694F27b73EC9C02257cab3a498C8C5"
     }
   },
-  "ETHYieldManagerProxy": {
+  "BlastETHYieldManagerProxy": {
     "description": "Blast L1 contract: ETHYieldManagerProxy",
     "networkAddresses": {
       "11155111": "0xed530ba33b4dc14572864bb9a776c9a42cf89fa5"
     }
   },
-  "L2OutputOracleProxy": {
+  "BlastL2OutputOracleProxy": {
     "description": "Blast L1 contract: L2OutputOracleProxy",
     "networkAddresses": {
+      "1": "0x826D1B0D4111Ad9146Eb8941D7Ca2B6a44215c76",
       "11155111": "0x311fF72DfE214ADF97618DD2E731637E8F41bD8c"
     }
   },
-  "SystemConfigProxy": {
+  "BlastSystemConfigProxy": {
     "description": "Blast L1 contract: SystemConfigProxy",
     "networkAddresses": {
+      "1": "0x5531DcfF39EC1ec727C4c5D2fc49835368F805a9",
       "11155111": "0x329faF078c364A316e08Bf6A17B7Eee6ae75a613"
     }
   },
-  "TestnetYieldProvider": {
+  "BlastTestnetYieldProvider": {
     "description": "Blast L1 contract: TestnetYieldProvider",
     "networkAddresses": {
       "11155111": "0x26B1B9Ff3A25a7D6e4468fA94696e45d066c7d08"
+    }
+  },
+  "BlastGas": {
+    "description": "Blast L2 contract: Gas",
+    "networkAddresses": {
+      "238": "0x4300000000000000000000000000000000000001",
+      "168587773": "0x4300000000000000000000000000000000000001"
     }
   },
   "Blast": {
@@ -63,52 +75,53 @@
   "BlastPoints": {
     "description": "Blast L2 contract: BlastPoints. Used to configure Blast Points.",
     "networkAddresses": {
+      "238": "0x2536FE9ab3F511540F2f9e2eC2A805005C3Dd800",
       "168587773": "0x2fc95838c71e76ec69ff817983BFf17c710F34E0"
     }
   },
-  "L2ToL1MessagePasser": {
+  "BlastL2ToL1MessagePasser": {
     "description": "Blast L2 contract: L2ToL1MessagePasser",
     "networkAddresses": {
       "238": "0x4200000000000000000000000000000000000016",
       "168587773": "0x4200000000000000000000000000000000000016"
     }
   },
-  "L2CrossDomainMessenger": {
+  "BlastL2CrossDomainMessenger": {
     "description": "Blast L2 contract: L2CrossDomainMessenger",
     "networkAddresses": {
       "238": "0x4200000000000000000000000000000000000007",
       "168587773": "0x4200000000000000000000000000000000000007"
     }
   },
-  "L2StandardBridge": {
+  "BlastL2StandardBridge": {
     "description": "Blast L2 contract: L2StandardBridge",
     "networkAddresses": {
       "238": "0x4200000000000000000000000000000000000010",
       "168587773": "0x4200000000000000000000000000000000000010"
     }
   },
-  "OptimismMintableERC20Factory": {
+  "BlastOptimismMintableERC20Factory": {
     "description": "Blast L2 contract: OptimismMintableERC20Factory",
     "networkAddresses": {
       "238": "0x4200000000000000000000000000000000000012",
       "168587773": "0x4200000000000000000000000000000000000012"
     }
   },
-  "L2ERC721Bridge": {
+  "BlastL2ERC721Bridge": {
     "description": "Blast L2 contract: L2ERC721Bridge",
     "networkAddresses": {
       "238": "0x4200000000000000000000000000000000000014",
       "168587773": "0x4200000000000000000000000000000000000014"
     }
   },
-  "OptimismMintableERC721Factory": {
+  "BlastOptimismMintableERC721Factory": {
     "description": "Blast L2 contract: OptimismMintableERC721Factory",
     "networkAddresses": {
       "238": "0x4200000000000000000000000000000000000017",
       "168587773": "0x4200000000000000000000000000000000000017"
     }
   },
-  "L2BlastBridge": {
+  "BlastL2BlastBridge": {
     "description": "Blast L2 contract: L2BlastBridge",
     "networkAddresses": {
       "238": "0x4300000000000000000000000000000000000005",
