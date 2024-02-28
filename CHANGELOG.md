@@ -1,5 +1,7 @@
 # Next version
 
+- fix: Use correct chain ID for Blast: 81457
+
 # 1.3.0
 
 - Add support for Blast contracts, including their known addresses on Blast/Ethereum and Blast Sepolia/Sepolia at this time.
