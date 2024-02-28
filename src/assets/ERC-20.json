@@ -71,7 +71,7 @@
           "default": true
         }
       },
-      "238": {
+      "81457": {
         "WETH.e": {
           "name": "Wrapped Ether",
           "comment": "Rebasing ERC20 token that serves as WETH on Blast L2.",
@@ -286,7 +286,7 @@
     "description": "Blast's rebasing USD token",
     "decimals": 18,
     "networkInstances": {
-      "238": {
+      "81457": {
         "USDB.e": {
           "name": "Rebasing USD",
           "comment": "Rebasing ERC20 token with the share price determined by an L1.",
