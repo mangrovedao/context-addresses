@@ -1,5 +1,7 @@
 # Next version
 
+- Add Blast Multicall2 address
+
 # 1.3.2
 
 - Add Blast mainnet accounts
