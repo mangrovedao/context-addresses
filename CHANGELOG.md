@@ -1,5 +1,7 @@
 # Next version
 
+# 1.3.3
+
 - Add Blast Multicall2 address
 
 # 1.3.2
