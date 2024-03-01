@@ -1,5 +1,7 @@
 # Next version
 
+- Add meta street tokens
+
 # 1.3.3
 
 - Add Blast Multicall2 address
