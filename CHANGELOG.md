@@ -1,5 +1,7 @@
 # Next version
 
+# 1.3.5
+
 - Add USDe token on Blast
 
 # 1.3.4
