@@ -306,6 +306,22 @@
       }
     }
   },
+  "USDe": {
+    "symbol": "USDe.e",
+    "description": "Ethena USD",
+    "decimals": 18,
+    "networkInstances": {
+      "81457": {
+        "USDe.e": {
+          "name": "Ethena USD",
+          "comment": "Ethena USD",
+          "contractName": "USDe",
+          "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+          "default": true
+        }
+      }
+    }
+  },
   "CRV": {
     "symbol": "CRV",
     "description": "Curve DAO Token",
