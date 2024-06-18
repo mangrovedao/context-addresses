@@ -1,5 +1,7 @@
 # Next version
 
+- Add USDe token on Blast
+
 # 1.3.4
 
 - Add meta street tokens
