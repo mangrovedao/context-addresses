@@ -312,7 +312,7 @@
     "decimals": 18,
     "networkInstances": {
       "81457": {
-        "USDB.e": {
+        "USDe.e": {
           "name": "Ethena USD",
           "comment": "Ethena USD",
           "contractName": "USDe",
