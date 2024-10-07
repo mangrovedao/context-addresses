@@ -1,5 +1,7 @@
 # Next version
 
+# 1.3.6-0
+
 - Add weETH and WBTC token on Arbitrum
 
 # 1.3.5
