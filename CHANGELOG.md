@@ -1,5 +1,7 @@
 # Next version
 
+- Add weETH and WBTC token on Arbitrum
+
 # 1.3.5
 
 - Add USDe token on Blast

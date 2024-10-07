@@ -13,6 +13,15 @@
           "default": true
         }
       },
+      "42161": {
+        "WBTC.e": {
+          "name": "Wrapped BTC",
+          "comment": "WBTC bridged from Ethereum using Arbitrum's canonical bridge.",
+          "contractName": "ClonableBeaconProxy",
+          "address": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+          "default": true
+        }
+      },
       "80001": {
         "WBTC.T/AAVEv3": {
           "name": "WBTC",
@@ -34,6 +43,22 @@
           "comment": "Test WBTC deployed by Mangrove DAO",
           "contractName": "TestToken",
           "address": "0xE44FfC50ED6673d6A1C385B76152E1551a6c14a3",
+          "default": true
+        }
+      }
+    }
+  },
+  "weETH": {
+    "symbol": "weETH",
+    "description": "Wrapped Ether",
+    "decimals": 18,
+    "networkInstances": {
+      "42161": {
+        "weETH.e": {
+          "name": "Wrapped eETH",
+          "comment": "Wrapped eETH on Arbitrum",
+          "contractName": "ClonableBeaconProxy",
+          "address": "0x35751007a407ca6FEFfE80b3cB397736D2cf4dbe",
           "default": true
         }
       }
